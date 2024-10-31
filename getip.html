@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open URL</title>
+    <style type="text/css">
+
+        body{
+            background-color:#e6dbd1 ;
+
+        }
+
+        hr{
+            width: 600px;
+            height: 1px;
+            
+        }
+
+        h1{
+            font-family:"Lucida Console", "Courier New", monospace;
+           
+            color: #202733;
+            margin-left: 360px;
+
+        }
+        
+        input{
+            font-family: sans-serif;
+            border-color: blue;
+            background-color: #90b3e8;
+            width: 400px;
+            margin-left: 500px;
+            margin-top: 60px;
+            padding: 20px;
+
+        }
+
+        button{
+
+            color:white; blue;
+            background: blue; 
+            width: 100px; 
+            border-radius: 30px;
+          
+        }               
+    </style>
+</head>
+<body>
+    <h1>Tracing ip Address of Unidentified User</h1><hr color=black>
+    <form action="open_url.php" method="get">
+        <label for="url"></label>
+        <input type="url" id="url" name="url" value="https://ipinfo.io/Enter_ip_address_here/json?token=9c5504dce7a407" required>
+       <button type="submit"><h5>Open</h5></button>
+    </form>
+</body>
+</html>
